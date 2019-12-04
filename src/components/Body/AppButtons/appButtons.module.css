@@ -1,0 +1,22 @@
+.buttons{
+    display: grid;
+    max-width:1280px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+}
+
+.btn{
+    width: 170px;
+}
+
+@media screen and (max-width: 544px) and (orientation: portrait) {
+    .btnText {
+        display: none;
+        transition: all ease 0.8s;
+    }
+    .btn{
+        width: 65px;
+    }
+}
