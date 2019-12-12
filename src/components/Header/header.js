@@ -14,6 +14,7 @@ const useStyles = makeStyles({
     },
     title: {
         flexGrow: 1,
+        marginLeft: 20,
     },
 });
 
